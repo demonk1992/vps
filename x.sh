@@ -304,7 +304,7 @@ echo "   - OpenVPN                 : UDP 1194"  | tee -a log-install.txt
 echo "   - Stunnel4                : 3128"  | tee -a log-install.txt
 echo "   - Ssl                : 443"  | tee -a log-install.txt
 echo "   - Dropbear                : 222"  | tee -a log-install.txt
-echo "   - Squid Proxy             : 3128, 8080, 8888 (limit to IP Server)"  | tee -a log-install.txt
+
 echo "   - Badvpn                  : 7100, 7200, 7300, 7400, 7500, 7600, 7700, 7800, 7900"  | tee -a log-install.txt
 echo "   - Nginx                   : 8443"  | tee -a log-install.txt
 echo "   - L2TP/IPSEC VPN          : 1701"  | tee -a log-install.txt
@@ -319,7 +319,7 @@ echo "   - Auto-Reboot             : [ON]"  | tee -a log-install.txt
 echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Demonk"  | tee -a log-install.txt
+echo "   - User Name               : Demonk"  | tee -a log-install.txt
 echo "   - Telegram                : T.me/sunatmasal"  | tee -a log-install.txt
 echo "   - Whatsapp                : 082119813096"  | tee -a log-install.txt
 echo "------------------Autoscript-----------------" | tee -a log-install.txt
