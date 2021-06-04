@@ -302,14 +302,14 @@ echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
 echo "   - OpenVPN                 : UDP 1194"  | tee -a log-install.txt
 echo "   - Stunnel4                : 3128"  | tee -a log-install.txt
-echo "   - Ssl                : 443"  | tee -a log-install.txt
+echo "   - Ssl                     : 443"  | tee -a log-install.txt
 echo "   - Dropbear                : 222"  | tee -a log-install.txt
 
 echo "   - Badvpn                  : 7100, 7200, 7300, 7400, 7500, 7600, 7700, 7800, 7900"  | tee -a log-install.txt
 echo "   - Nginx                   : 8443"  | tee -a log-install.txt
 echo "   - L2TP/IPSEC VPN          : 1701"  | tee -a log-install.txt
 echo "   - V2RAY Vless None TLS    : 8880"  | tee -a log-install.txt
-echo ""  | tee -a log-install.txt
+
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
 echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
