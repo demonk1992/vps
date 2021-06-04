@@ -17,7 +17,8 @@ exit 0
 fi
 # update upgrade
 export DEBIAN_FRONTEND=noninteractive
-apt-get update; apt-get -y dist-upgrade; apt-get install -y dropbear ca-certificates apt-transport-https lsb-release screen unzip wget curl git netcat tcpd tor build-essential checkinstall zlib1g-dev libsctp-dev cmake make gcc zlib1g-dev libwrap0-dev certbot tor perl libperl-dev libgd3 libgd-dev libgeoip1 libgeoip-dev geoip-bin libxml2 libxml2-dev libxslt1.1 libxslt1-dev build-essential git tree libpcre3-dev socket libssl-dev libssl1.0 dh-autoreconf libssh-4 libssh-dev libconfig9 lolcat linux-image-5.10.0-0.bpo.4-amd64 python-certbot-nginx;
+apt-get update; apt-get -y dist-upgrade;
+apt-get install -y dropbear ca-certificates apt-transport-https lsb-release screen unzip wget curl git netcat tcpd tor build-essential checkinstall zlib1g-dev libsctp-dev cmake make gcc zlib1g-dev libwrap0-dev certbot tor perl libperl-dev libgd3 libgd-dev libgeoip1 libgeoip-dev geoip-bin libxml2 libxml2-dev libxslt1.1 libxslt1-dev build-essential git tree libpcre3-dev socket libssl-dev libssl1.0 dh-autoreconf libssh-4 libssh-dev libconfig9 lolcat linux-image-5.10.0-0.bpo.4-amd64 python-certbot-nginx dropbear
 # Create and Configure rc.local
 cat > /etc/rc.local <<-END
 #!/bin/sh -e
