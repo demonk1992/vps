@@ -322,7 +322,7 @@ echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : Demonk"  | tee -a log-install.txt
 echo "   - Telegram                : T.me/sunatmasal"  | tee -a log-install.txt
 echo "   - Whatsapp                : 082119813096"  | tee -a log-install.txt
-echo "------------------Script By Demonk-----------------" | tee -a log-install.txt
+echo "------------------Autoscript-----------------" | tee -a log-install.txt
 echo ""
 rm -f x.sh
 sudo reboot
